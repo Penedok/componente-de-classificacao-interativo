@@ -1,4 +1,4 @@
-
+@import url(./cartao.css);
 
 *{
     margin: 0;
@@ -19,6 +19,8 @@
 body{
     background-repeat: no-repeat;
     font-family: var(--font-cartao);
+    background: black;
+   
 
 
 }

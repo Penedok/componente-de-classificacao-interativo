@@ -1,0 +1,76 @@
+header{
+    background: var(--color-cartao-background);
+
+}
+.cartao{
+    margin: 5em 3em;
+}
+.estrela-icon{
+   width: 10%;
+   background: var(--color-background-numero);
+   margin:   1.5em 1.5em 0 1.5em;
+   border: 1px solid transparent;
+   border-radius: 16px;
+   padding: 0.5em; 
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: var(--color-cartao-background);
+    color: #fff;
+}
+.caixa{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0.5em 1em;
+   padding: 0.5em 1em;
+
+}
+.titulo{
+    padding: 0.5em 0;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+.texto{
+    font-weight: 300;
+}
+.caixa-checkbox{
+  display: none;
+  justify-content: center;
+
+}
+input{
+  margin: 0 1.5em 1em 1.5em;
+
+}
+
+.caixa-numero{
+ display: flex;
+ justify-content: center; 
+}
+.numero{
+    padding:  0.5em 1em;
+    margin: 0 0.3em;
+    border: 1px solid transparent;
+    border-radius: 36px;
+    background: var(--color-background-numero);
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+.submit{
+    padding: 0.5em 7em;
+    border-radius: 16px;
+    margin:0 2em;
+    background: var(--color-button);
+    color: #FFF;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
