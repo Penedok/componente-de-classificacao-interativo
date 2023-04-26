@@ -1,0 +1,24 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-cartao-background: #212832;
+    --color-button: #fc7613;
+    --color-texto:#313842;
+    --color-background-numero: #262f38;
+    --font-cartao: 'Overpass', sans-serif;
+
+}
+
+body{
+    background-repeat: no-repeat;
+    font-family: var(--font-cartao);
+
+
+}
