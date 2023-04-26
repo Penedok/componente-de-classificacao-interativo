@@ -1,0 +1,10 @@
+.formulario{
+    display: inline-block;
+}
+.selecao{
+    text-align: center;
+    width: 25vw;
+}
+option{
+    display: inline-block;
+}
