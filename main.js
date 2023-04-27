@@ -1,9 +1,8 @@
 
-const checkbox = document.querySelectorAll(".checkbox")
+const numero = document.querySelectorAll(".numero")
+const btn = document.querySelector('#botao')
 
-checkbox.forEach((caixinhas)=>{
- caixinhas.addEventListener("click", ()=>{
-    alert('ola')
- })
- })
+numero.forEach((numeros)=>{
+   numero[4].classList="teste";
 
+})

@@ -10,7 +10,8 @@
 :root{
     --color-cartao-background: #212832;
     --color-button: #fc7613;
-    --color-texto:#313842;
+    --color-titulo: #f9fafd;
+    --color-texto:#777d8b;
     --color-background-numero: #262f38;
     --font-cartao: 'Overpass', sans-serif;
 
