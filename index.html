@@ -11,39 +11,40 @@
     <title>Classificação Interativa</title>
 </head>
 <body>
-   
-    <section class="container cartao">
-        <img src="./images/icon-star.svg" class="estrela-icon" alt="estrela dourada">
-        <div class="caixa">
-            <h2 class="titulo">Diga como fizemos</h2>
-            <p class="texto">Por favor deixe-nos saber como foi a sua experiência com 
-                o nosso restaurante.  </p>
-            <p class="texto"> Toda avaliação nos ajudará a tornar sua experiência  
-                ainda melhor!</p>
-        </div>
-      
+   <main>
+        <section class="container cartao">
+            <img src="./images/icon-star.svg" class="estrela-icon" alt="estrela dourada">
+            <div class="caixa">
+                <h2 class="titulo">Diga como fizemos</h2>
+                <p class="texto">Por favor deixe-nos saber como foi a sua experiência com 
+                    o nosso restaurante.  </p>
+                <p class="texto"> Toda avaliação nos ajudará a tornar sua experiência  
+                    ainda melhor!</p>
+            </div>
+        
+            <div class="caixa-numero">
+                <label class="nota " for="nota-1">1</label>
+                <input class="radio" value="1" id="nota-1" name="nota" type ="radio">
 
-      
-        <div class="caixa-numero">
-            <span class="numero" value="1">1</span>
-            <span class="numero" value="2">2</span>
-            <span class="numero" value="3">3</span>
-            <span class="numero" value="4">4</span>
-            <span class="numero" value="5">5</span>
-        </div>
-         <!--
-        <div class="caixa-checkbox">
-            <input type="checkbox" class="checkbox">
-            <input type="checkbox" class="checkbox">
-            <input type="checkbox" class="checkbox">
-            <input type="checkbox" class="checkbox">
-            <input type="checkbox" class="checkbox">
-        </div> -->
-        <div class="botao">
-            <button type="submit" class="submit" id="botao" onclick="btn">Submit</button>
-        </div>
-    </section>    
-    
+                <label class="nota" for="nota-2">2</label>
+                <input class="radio" value="2" id="nota-2" name="nota" type ="radio">
+
+                <label class="nota" for="nota-3">3</label>
+                <input class="radio" value="3" id="nota-3" name="nota" type ="radio">
+
+                <label class="nota" for="nota-4">4</label>
+                <input class="radio" value="4" id="nota-4" name="nota" type ="radio">
+
+                <label class="nota" for="nota-5">5</label>
+                <input class="radio" value="5" id="nota-5" name="nota" type ="radio">
+            </div>
+            
+            
+            <div class="botao">
+                <button type="button" class="submit" id="botao" >Submit</button>
+            </div>
+        </section>    
+    </main>    
     <script src="./main.js"></script>
 </body>
 </html>
