@@ -4,7 +4,7 @@
 ### Tarefas:
 - [X] Selecionar os números  
 - [X] enviar uma classificação numérica
-- [ ] Criar dois cartões 1 da classificação e outro cartão "obrigado"
-- [ ] Criar um  botão para mostrar o cartão "obrigado"
-- [ ] Desenvolver a interface da tela
-- [ ] Elementos interativos na página com focoe foco
+- [X] Criar três cartões [classificação obrigado e desculpa]     
+- [X] Criar um  botão 
+- [X] Desenvolver a interface da tela
+- [X] Elementos interativos na página com focoe foco

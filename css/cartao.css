@@ -59,8 +59,8 @@ header{
 .nota:hover{
     background-color: var(--color-texto);
 }
-.radio{
-   display: none;
+.input{
+  display: none;
 }
 
 .botao{
@@ -71,20 +71,22 @@ header{
 .submit{
     padding: 0.5em 7em;
     border-radius: 16px;
+    cursor: pointer;
     margin:0 2em;
     background: var(--color-button);
     color: #FFF;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 18px;
     text-transform: uppercase;
 }
-
-
+.submit:hover{
+    background: #fff;
+    color: var(--color-button);
+}
 .padrao{
     background-color: var(--color-texto);;
     background-color: rgb(38, 47, 56);
 }
-
-
 .selecionado{
     background: var(--color-button);
     color: #fff;
