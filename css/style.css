@@ -21,10 +21,11 @@
 body{
     background-repeat: no-repeat;
     font-family: var(--font-cartao);
-    background: black;
+    background: linear-gradient(#304968, #36C1A0, #4650BD);
 }
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     height: 100vh;

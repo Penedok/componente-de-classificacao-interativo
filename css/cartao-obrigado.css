@@ -40,3 +40,18 @@
     color: var(--color-texto);
     font-weight: 500;
 }
+.caixa-sair{
+    display: flex;
+    justify-content: end;
+    padding: 2em 0.5em;
+}
+.sair{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: var(--color-background-numero);
+    color: var(--color-button);
+    padding: 0.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
