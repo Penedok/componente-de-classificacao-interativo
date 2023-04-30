@@ -90,4 +90,9 @@ header{
     background: var(--color-button);
     color: #fff;
 }
-
+ .rodape{
+    margin:0 0 0.5em 1em ;
+ }
+.texto-rodape{
+    color: var(--color-button);
+}

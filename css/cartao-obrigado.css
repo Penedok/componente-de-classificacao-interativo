@@ -3,7 +3,11 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 2em 0;
+    padding: 2em 2.5em;
+}
+.cartao{
+    width: 100%;
+    height: 92vh;
 }
 .imagem-obrigado{
     display: flex;
@@ -43,7 +47,7 @@
 .caixa-sair{
     display: flex;
     justify-content: end;
-    padding: 2em 0.5em;
+    padding: 0.5em 0.5em;
 }
 .sair{
     border: 1px solid transparent;
