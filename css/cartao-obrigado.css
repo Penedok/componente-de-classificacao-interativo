@@ -16,6 +16,9 @@
     width: 50%;
     padding: 0.5em 0 1.5em 0;
 }
+.imagem-desculpa{
+    width: 35%;
+}
 .resultado{
     border: 1px solid transparent;
     border-radius: 1em;
@@ -30,13 +33,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding:  0 0.5em;
+    padding:  0 1em;
 }
 .texto-superior{
     color: var(--color-titulo);
     font-size: 22px;
     padding: 0.7em 0;
     text-align: center;
+}
+.texto-paragrafo{
+    width: 80%;
 }
 .paragrafo{
     text-align: center;
